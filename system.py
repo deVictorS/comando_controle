@@ -3,7 +3,7 @@ import threading
 import time
 
 SERVER_IP = "10.20.10.179"
-SERVER_PORT = 4444
+SERVER_PORT = 5000
 
 def connect(ip, port):
     try:
