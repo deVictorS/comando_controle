@@ -88,7 +88,7 @@ def t_commun():
             print(answer)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('10.20.10.179', 4444))
+sock.bind(('', 4444))
 print(colored('[-] Waiting for connections', 'green'))
 sock.listen(5)
 
