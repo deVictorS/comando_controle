@@ -1,16 +1,16 @@
-# Comando & Controle (C&C) 🎮
+# Comando & Controle (C&C) 
 
 Um servidor de Comando e Controle (C2) desenvolvido em Python para gerenciamento remoto de máquinas através de conexões de socket.
 
-## ⚠️ Aviso Legal
+##  Aviso Legal
 
 **Este projeto é exclusivamente para fins educacionais e de pesquisa de segurança.** O uso não autorizado deste software é ilegal. Use apenas em ambientes controlados nos quais você tem permissão explícita.
 
-## 📋 Descrição
+##  Descrição
 
 Este projeto implementa um sistema de Comando e Controle (C2) em Python que permite comunicação bidirecional entre um servidor controlador e máquinas clientes. O sistema permite executar comandos remotos, gerenciar arquivos e capturar screenshots das máquinas clientes.
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 O projeto é composto por três componentes principais:
 
@@ -34,7 +34,7 @@ O projeto é composto por três componentes principais:
 - Implementação mais simples com reconexão automática
 - Interface interativa de linha de comando
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 ### Servidor (c2.py)
 - ✅ Aguarda conexões de clientes
@@ -53,7 +53,7 @@ O projeto é composto por três componentes principais:
 - ✅ Navegação de diretórios (cd)
 - ✅ Reconexão automática
 
-## 🛠️ Requisitos
+##  Requisitos
 
 - **Python 3.x**
 - **termcolor** - Para colorizar a saída do terminal
@@ -66,7 +66,7 @@ O projeto é composto por três componentes principais:
 pip install termcolor pyautogui
 ```
 
-## 🚀 Como usar
+##  Como usar
 
 ### 1. Iniciar o Servidor C2
 
@@ -132,7 +132,7 @@ diretorio/
 * Shell~192.168.1.100: exit
 ```
 
-## 📝 Estrutura do Código
+##  Estrutura do Código
 
 ### **backdoor.py** (Cliente Backdoor)
 
@@ -160,13 +160,13 @@ diretorio/
 - `receive_messages(client)` - Thread que recebe mensagens
 - `main_loop(client)` - Loop de envio de mensagens
 
-## 🔗 Dependências Externas
+##  Dependências Externas
 
 - **termcolor**: [https://pypi.org/project/termcolor/](https://pypi.org/project/termcolor/)
 - **pyautogui**: [https://pypi.org/project/PyAutoGUI/](https://pypi.org/project/PyAutoGUI/)
 - **Socket**: Biblioteca padrão do Python
 
-## 📊 Fluxo de Comunicação
+##  Fluxo de Comunicação
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -184,7 +184,7 @@ diretorio/
 └─────────────────────────────────────────────────────┘
 ```
 
-## ⚠️ Considerações de Segurança
+##  Considerações de Segurança
 
 1. **Sem criptografia** - A comunicação é em texto plano (JSON)
 2. **Porta padrão** - Use portas não convencionais em produção
@@ -192,7 +192,7 @@ diretorio/
 4. **Firewall** - Certifique-se de configurar regras de firewall adequadas
 5. **Logs** - Não há registro de atividades implementado
 
-## 🎓 Propósito Educacional
+##  Propósito Educacional
 
 Este projeto foi desenvolvido para fins educacionais, ajudando a entender:
 - Comunicação via sockets em Python
@@ -201,11 +201,11 @@ Este projeto foi desenvolvido para fins educacionais, ajudando a entender:
 - Conceitos de C2 e infraestrutura maliciosa
 - Segurança defensiva e análise de ameaças
 
-## 📄 Licença
+##  Licença
 
 Este projeto não possui licença especificada.
 
-## 👨‍💻 Autor
+##  Autor
 
 [deVictorS](https://github.com/deVictorS)
 
